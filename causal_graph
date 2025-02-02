@@ -1,0 +1,14 @@
+digraph "Causal Graph" {
+	Incentives [label="Incentives (Treatment)"]
+	BirthRate [label="Birth Rate (Outcome)"]
+	GDP [label="GDP (Confounder)"]
+	Education [label="Education (Confounder)"]
+	U [label="U (Unobserved)" color=gray style=dashed]
+	Incentives -> BirthRate
+	GDP -> Incentives
+	GDP -> BirthRate
+	Education -> Incentives
+	Education -> BirthRate
+	U -> Incentives
+	U -> BirthRate
+}
