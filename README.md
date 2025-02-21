@@ -6,6 +6,9 @@ This project analyzes the causal impact of various policy interventions on birth
 
 ## Countries and Policy Interventions
 
+![Birth Rates since 1990](fertility_rates.png)
+
+
 Below is a list of countries included in this study, along with their respective policy interventions, implementation dates, and sources.
 
 ### South Korea
